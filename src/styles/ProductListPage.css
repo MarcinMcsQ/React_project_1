@@ -1,0 +1,36 @@
+.products h2 {
+  margin: 20px;
+}
+.products ul {
+  list-style: none;
+  margin-left: 40px;
+}
+.products li {
+  overflow: hidden;
+  margin-top: 10px;
+}
+.products div li a {
+  text-decoration: none;
+  color: blue;
+  transition: 0.3s;
+  display: block;
+  width: 130px;
+}
+
+.products div li a:after {
+  border-bottom: 2px solid black;
+  content: "";
+  display: block;
+  width: 130px;
+  transform: translateX(-100%);
+  transition: 0.3s;
+}
+.products div li a:hover {
+  text-decoration: none;
+  color: black;
+}
+.products div li a:hover:after {
+  text-decoration: none;
+  color: black;
+  transform: translateX(0%);
+}

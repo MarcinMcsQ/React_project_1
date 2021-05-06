@@ -1,0 +1,48 @@
+.app {
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+  min-height: 100vh;
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+header {
+  flex-basis: 30vh;
+  background-color: rgb(146, 96, 3);
+}
+main {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px 0;
+  background-color: black;
+}
+article {
+  /* padding-left: 30px;
+  padding-top: 20px; */
+  /* padding-right: ; */
+  padding: 20px 20px 10px 20px;
+  text-align: justify;
+}
+article p {
+  padding: 10px 10px 20px 30px;
+}
+aside {
+  min-width: 240px;
+  background-color: burlywood;
+}
+section.blog {
+  flex-grow: 1;
+  background-color: white;
+  border-right: 1px solid black;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  /* margin-bottom: 50px; */
+}
